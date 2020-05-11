@@ -2,33 +2,113 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
+	<title>Drogi Świętego Jakuba</title>
+	<meta name="description" content="Camino" />
+	<meta name="keywords" content="Bogusław Gorczyca" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
-	<title></title>
-	
-	<meta name="description" content="Opis w Google" />
-	<meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
-	
+	<style>
+	#container
+	{
+		
+		font-family: 'PT Sans Narrow', sans-serif;
+		width: 1100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: #006699;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 120px;
+		min-height: 620px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+	}
+	#ad
+	{
+		float: left;
+		width: 260px;
+		min-height: 620px;
+		padding: 10px;
+		background-color: lightgray;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: #006699;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}	
+	</style>
+
 </head>
 
 <body>
-1A - rozszerzone treści nauczania z j. polskiego, historii i wiedzy o społeczeństwie
-Powinieneś wybrać klasę o takim nachyleniu przedmiotowym, jeśli:
- chcesz rozwijać zainteresowania naukami humanistycznymi;
- marzysz o podjęciu studiów humanistycznych lub społecznych (prawo, filologia polska,
-filozofia, dziennikarstwo, kulturoznawstwo, stosunki międzynarodowe, europeistyka)
-na takich uczelniach jak: Uniwersytet Jagielloński, Uniwersytet Warszawski, Uniwersytet
-Rzeszowski, Uniwersytet Adama Mickiewicza w Poznaniu;
- chcesz zmierzyć się z najlepszymi w Olimpiadzie Historycznej, Olimpiadzie Literatury
-i Języka Polskiego, Olimpiadzie „Losy Żołnierza i Dzieje Oręża Polskiego”;
- interesują cię lekcje muzealne w Muzeum Powstania Warszawskiego, w Muzeum
-Regionalnym w Stalowej Woli, w Międzynarodowym Centrum Edukacji o Auschwitz
-i Holokauście;
- zamierzasz przystąpić do egzaminu maturalnego z języka polskiego, historii, wiedzy
-o społeczeństwie na poziomie rozszerzonym.
-Przy rekrutacji do klasy 1A przedmioty punktowane to: język polski, matematyka,
-język obcy, historia/fizyka/biologia/geografia/chemia
+
+	<div id="container">
 	
+		<div id="logo">
+			 <h2><img src="img/narowerach.png" width="7%" high="7%" /> Drogi Świętego Jakuba 2015 <img src="img/zplecakiem2.png" width="7%" high="7%" /></h2>
+		</div>
+	
+		<div id="nav">
+			Rowerami: <br />
+			<a href="1day.html"> Dzień 1 </a> <br />
+			<a href="2day.html"> Dzień 2 </a> <br />
+			<a href="3day.html"> Dzień 3 </a> <br /><br /> <br />
+			Z plecakami:<br />
+			<a href="4day.html"> Dzień 4 </a> <br />
+		    <a href="5day.html"> Dzień 5 </a> <br />
+		</div>
+		
+		<div id="content">
+			<h3>Lipiec 2015</h3>
+			<center>Relacja z przejazdu rowerami <b>Małopolską</b> Drogą Świętego Jakuba:<br />
+			Stalowa Wola - Kazimierza Wielka oraz,<br />
+            pieszej wędrówki <b>Beskidzką</b> Drogą Świetego Jakuba: Sułkowice - Wadowice.
+			</center>
+			<br />
+			<br />
+					<img src="img/1.jpg" width="640" high="360" /><br />
+			<center><i> „Stalowa Wola, 3 lipca 2015 r.”</i> </center>
+			
+		</div>
+		
+		<div id="ad">
+				<center> „...a za busem Sandomierz” </center> <br />
+				<img id = "aaa" src="img/8.jpg" width="260" high="462" /><br />
+		
+		</div>
+		
+		<div id="footer">
+			Przykładowa strona zrealizowana w oparciu o kurs M. Zelenta: <b>www.miroslawzelent.pl</b>
+		</div>
+	
+	</div>
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+     $("#container").hide();
+        $("#aaa").hide();
+        $("#container").slideDown(1000, function() {
+						$("#aaa").slideDown(1000);  
+        });
+    
+            
+        </script>
 
 </body>
 </html>
